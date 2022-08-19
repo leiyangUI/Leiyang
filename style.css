@@ -91,13 +91,15 @@ h1 {
 }
 
 #cursor {
-  background: #2128bd;
+  /* background: #2128bd; */
+  background: #8021bd;
   width: 5px;
   height: 5px;
 }
 
 #mouse1 {
-  background: white;
+  /* background: white; */
+  background: #FF5722;
   transition: 0.15s ease-out;
   width: 100px;
   height: 100px;
@@ -105,7 +107,8 @@ h1 {
 
 #mouse2 {
   transition: 0.25s ease-out;
-  background: rgb(41, 41, 41);
+  /* background: rgb(41, 41, 41); */
+  background: #009688;
   width: 200px;
   height: 200px;
 }
