@@ -25,7 +25,7 @@ a:visited {
 
 a:hover {
   font-size: 1.3rem;
-  color: #00effc;
+  color: #1d2c2d;
 }
 
 body {
@@ -63,10 +63,16 @@ h1 {
 }
 
 .main-left h2 {
-  color: #474dff;
+  color: #5e60a5;
   font-size: 1.8rem;
 }
-
+nav > h3 {
+  color: #5e60a5;
+  text-shadow: 6px 4px 3px #1c4b4d;
+}
+h3 {
+  color: rgb(187, 186, 186);
+}
 .main-left p {
   font-size: 0.8rem;
 }
@@ -128,13 +134,14 @@ footer {
 }
 
 .footer-left li {
-  background: #474dff;
-  width: 170px;
-  padding: 10px 0;
+  background: #5e60a5;
+  width: 250px;
+  padding: 15px 0;
   text-align: center;
   border-radius: 10px;
   letter-spacing: 1px;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 .footer-right ul {
