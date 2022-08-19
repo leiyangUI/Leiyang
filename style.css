@@ -1,6 +1,6 @@
 @font-face {
   font-family: "font-1";
-  src: url(../souris/font/Inter-VariableFont_slnt\,wght.ttf);
+  src: url(../souris/font/Inter-VariableFont_slnt\wght.ttf);
 }
 
 * {
@@ -19,7 +19,6 @@ a:visited {
   color: white;
   text-decoration: none;
   transition: 0.3s;
-  /* pour que ça marche nos mouse, il faut d'abord désactive dans le body(cursor:none), ensuite tous les link a, on met un z-index: 1000;pour etre sûr que le link soit au dessus de mouse(car il est en position absolute), des fois, ça ne marche pas toute seule avec z-index, car les 3 souris sont en absolute donc il faut lui ajouter une position relative */
   z-index: 1000;
   position: relative;
 }
@@ -80,7 +79,6 @@ h1 {
   width: 100%;
 }
 
-
 .mouse {
   position: absolute;
   /* border: 1px solid red; */
@@ -111,8 +109,6 @@ h1 {
   width: 200px;
   height: 200px;
 }
-
-
 
 footer {
   background: rgb(7, 7, 7);
